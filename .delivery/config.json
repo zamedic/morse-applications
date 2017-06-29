@@ -1,0 +1,22 @@
+{
+  "version": "2",
+  "job_dispatch": {
+    "version": "v2"
+  },
+  "truck": {
+    "single_level_project": "true",
+    "skip_functional_tests": "true"
+  },
+  "build_cookbook": {
+    "name": "build_cookbook",
+    "path": ".delivery/build_cookbook"
+  },
+  "delivery-truck": {
+    "publish": {
+      "chef_server": true
+    }
+  },
+  "skip_phases": [],
+  "build_nodes": {},
+  "dependencies": []
+}
